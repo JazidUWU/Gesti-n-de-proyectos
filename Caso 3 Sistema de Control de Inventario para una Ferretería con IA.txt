@@ -1,0 +1,111 @@
+Caso 3: Sistema de Control de Inventario para una Ferretería con IA
+Introducción:
+Una ferretería local con varias sucursales desea automatizar y centralizar el control de su inventario de productos. Actualmente, utilizan hojas de cálculo distintas por sucursal, lo cual complica la gestión general. La implementación de un sistema moderno, enriquecido con capacidades de Inteligencia Artificial (IA), es fundamental para optimizar la visibilidad del stock en tiempo real, predecir la demanda, minimizar pérdidas por sobrestock o falta de productos, y mejorar la toma de decisiones estratégicas en toda la cadena de suministro.
+
+Problemática:
+La dependencia de métodos de registro manuales y descentralizados genera múltiples inconvenientes que afectan la operación y rentabilidad de la ferretería. La ausencia de herramientas inteligentes agrava estos problemas:
+
+Dificultad para conocer el stock real en tiempo real y falta de visibilidad unificada: Las hojas de cálculo separadas impiden una visión consolidada del inventario en todas las sucursales, lo que lleva a decisiones de compra erróneas y oportunidades de venta perdidas.
+
+Problemas de sobrestock o falta de productos sin aviso previo y gestión reactiva: La ausencia de un sistema predictivo resulta en excesos de inventario de productos de baja rotación o escasez crítica de artículos populares, afectando la liquidez y la satisfacción del cliente.
+
+Errores frecuentes en las ventas por información desactualizada y baja eficiencia operativa: La información de stock no precisa en el punto de venta genera frustración en clientes y vendedores, retrasos y anulaciones de ventas.
+
+No hay trazabilidad de movimientos entre almacenes o sucursales y dificultad en la auditoría: Los traspasos entre sucursales son difíciles de rastrear, lo que puede llevar a discrepancias de inventario y a la imposibilidad de identificar cuellos de botella o pérdidas.
+
+Falta de insights para la gestión de compras y optimización de surtido: La ausencia de análisis avanzado impide identificar patrones de venta, productos estrella o aquellos que deberían descontinuarse, limitando la capacidad de optimizar el surtido y las estrategias de compra.
+
+Objetivo general:
+Desarrollar un sistema web de control de inventarios que permita gestionar productos, entradas, salidas, traspasos y alertas, con una vista consolidada para todas las sucursales de la ferretería, integrando capacidades de Inteligencia Artificial para optimizar la gestión de stock, predecir la demanda, minimizar errores y proporcionar insights estratégicos para una operación más eficiente y rentable.
+
+Objetivos Específicos:
+OE1: Reducir los errores de stock y las discrepancias de inventario en un 90% en los primeros 6 meses, mediante la automatización de registros y la implementación de un sistema de conciliación y alertas de IA.
+
+OE2: Disminuir el sobrestock y la falta de productos en un 30% en el primer año, a través de la implementación de un motor de predicción de demanda basado en IA y alertas de stock mínimo optimizadas.
+
+OE3: Incrementar la eficiencia en la gestión de traspasos y la toma de decisiones de compra en un 40% al finalizar el primer año, utilizando análisis de IA para optimizar rutas de traspaso y generar recomendaciones de compra inteligentes.
+
+Funcionalidades Principales para Cumplir los Objetivos Específicos:
+Para OE1 (Reducir errores de stock y discrepancias con IA):
+Gestión de Productos con Categorías, Unidades y Precios (con Auditoría Inteligente):
+
+Registro detallado de cada producto con su SKU, descripción, categoría, unidad de medida, precio de compra y venta.
+
+Módulo de Detección de Anomalías con IA: Identifica patrones inusuales en los registros de entradas y salidas que podrían indicar errores de digitación o discrepancias, alertando al personal para su revisión.
+
+Registro de Entradas y Salidas por Sucursal (Automatizado y Verificado por IA):
+
+Registro manual o por escáner de códigos de barras para entradas (compras a proveedores) y salidas (ventas a clientes).
+
+Asociación automática de movimientos a la sucursal correspondiente.
+
+Validación de Datos con IA: Compara los datos de entrada/salida con el historial para detectar posibles errores (ej. cantidades inusualmente altas o bajas) y sugiere correcciones.
+
+Reportes de Stock por Producto y por Ubicación (con Consolidación Inteligente):
+
+Generación de reportes en tiempo real del stock actual por producto, por sucursal y a nivel consolidado.
+
+Conciliación de Inventario con IA: Sugiere momentos óptimos para realizar conteos físicos y ayuda a identificar las causas de las discrepancias entre el stock físico y el registrado.
+
+Para OE2 (Disminuir sobrestock y falta de productos con IA):
+Alertas de Stock Mínimo Configurable (Optimizadas por IA):
+
+Configuración de umbrales de stock mínimo por producto y sucursal.
+
+Motor de Predicción de Demanda con IA: Analiza el historial de ventas, estacionalidad, promociones y otros factores externos para predecir la demanda futura de cada producto, ajustando dinámicamente los umbrales de stock mínimo y máximo para evitar sobrestock o desabastecimiento.
+
+Generación automática de alertas cuando el stock de un producto se acerca o supera los umbrales.
+
+Dashboard con Métricas de Inventario (con Insights Predictivos de IA):
+
+Visualización gráfica de métricas clave: productos más vendidos, productos sin rotación (stock muerto), valor total del inventario, rotación de inventario.
+
+Análisis de Rotación de Inventario con IA: Identifica productos de baja rotación y sugiere estrategias para su liquidación o descontinuación.
+
+Identificación de Oportunidades de Venta con IA: Destaca productos con alta demanda potencial o que podrían combinarse en ofertas, basándose en patrones de compra.
+
+Para OE3 (Incrementar eficiencia en traspasos y decisiones de compra con IA):
+Traspaso de Productos entre Sucursales con Registro de Movimientos (Optimizado por IA):
+
+Funcionalidad para registrar el envío y la recepción de productos entre diferentes sucursales o almacenes.
+
+Registro detallado de la fecha, cantidad, origen, destino y responsable del traspaso.
+
+Optimización de Traspasos con IA: Sugiere la sucursal óptima desde la cual realizar un traspaso, considerando el stock disponible, la demanda proyectada y la distancia, minimizando costos de transporte y tiempos de espera.
+
+Gestión de Compras y Proveedores (con Recomendaciones de IA):
+
+Registro de proveedores y sus productos.
+
+Generación de órdenes de compra.
+
+Recomendaciones de Compra con IA: Basado en la predicción de demanda, el stock actual, los tiempos de entrega de proveedores y los costos, la IA sugiere cantidades y momentos óptimos para realizar pedidos a proveedores.
+
+Registro de Usuarios con Roles: Vendedor, Encargado de Sucursal, Administrador General.
+
+Gestión de Usuarios con Diferentes Roles (Vendedor, Encargado de Sucursal, Administrador General) y su Uso de la IA:
+Creación de perfiles de usuario con permisos específicos según su función en la plataforma.
+
+Control de acceso a diferentes módulos y funcionalidades del sistema.
+
+Registro de auditoría de acciones realizadas en el sistema para mayor seguridad y trazabilidad.
+
+Detalle de cómo cada rol se beneficia y usa la IA:
+
+Vendedor:
+
+Uso de la IA: El vendedor se beneficiará de la IA al tener acceso a información de stock en tiempo real y precisa, lo que reducirá errores en las ventas. Las Alertas de Stock Mínimo optimizadas por IA le permitirán saber cuándo un producto está bajo o agotado, evitando promesas de venta que no se pueden cumplir. La IA también podría sugerirle productos complementarios al cliente basándose en patrones de compra anteriores (aunque no es una funcionalidad explícita, se deriva de los insights de inventario).
+
+Mejoras: Mayor confianza al vender, reducción de cancelaciones de pedidos por falta de stock, mejora en la satisfacción del cliente al ofrecer información precisa y rápida, y potencial para aumentar las ventas cruzadas.
+
+Encargado de Sucursal:
+
+Uso de la IA: El encargado de sucursal utilizará el Motor de Predicción de Demanda con IA para ajustar los pedidos a su sucursal, minimizando el sobrestock y la falta de productos. El Módulo de Detección de Anomalías con IA le alertará sobre posibles errores en los registros de inventario, permitiéndole corregirlos rápidamente. La Optimización de Traspasos con IA le ayudará a decidir de qué sucursal solicitar productos o a cuál enviarlos de manera más eficiente.
+
+Mejoras: Gestión de inventario más precisa y eficiente a nivel de sucursal, reducción de pérdidas por stock obsoleto o faltante, optimización de los espacios de almacenamiento, y mejor capacidad de respuesta a la demanda local.
+
+Administrador General:
+
+Uso de la IA: El administrador general se apoyará en el Dashboard con Métricas de Inventario (con Insights Predictivos de IA) para obtener una visión consolidada y estratégica de todas las sucursales. El Análisis de Rotación de Inventario con IA y las Recomendaciones de Compra con IA le permitirán tomar decisiones informadas sobre qué productos mantener, cuáles descontinuar y cuándo y cuánto comprar, optimizando el capital de trabajo. La IA también le ayudará a identificar tendencias y patrones de compra a nivel global de la ferretería.
+
+Mejoras: Toma de decisiones estratégicas basada en datos y predicciones, optimización de la inversión en inventario, mejora de la rentabilidad general de la ferretería, y mayor control y trazabilidad de los movimientos de stock en toda la empresa.

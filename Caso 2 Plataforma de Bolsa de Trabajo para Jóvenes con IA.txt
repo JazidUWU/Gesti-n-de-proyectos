@@ -1,0 +1,107 @@
+Caso 2: Plataforma de Bolsa de Trabajo para Jóvenes con IA
+Introducción:
+Una organización sin fines de lucro desea crear una plataforma que conecte a jóvenes de entre 18 y 25 años con oportunidades de empleo, prácticas y formación técnica, especialmente para aquellos con pocas oportunidades. La implementación de Inteligencia Artificial (IA) es crucial para ir más allá de una simple conexión, ofreciendo recomendaciones personalizadas, optimizando la confianza entre jóvenes y empresas, y permitiendo un seguimiento más profundo del impacto de las oportunidades, asegurando así un servicio más efectivo y transformador.
+
+Problemática:
+Los desafíos actuales para los jóvenes y las empresas se ven exacerbados por la falta de herramientas inteligentes:
+
+Los jóvenes no saben dónde buscar trabajos adecuados a su perfil y carecen de guía personalizada: La búsqueda manual es ineficiente y no considera el potencial oculto o las habilidades transferibles, lo que lleva a la frustración y a la pérdida de oportunidades.
+
+Las empresas no confían en los postulantes jóvenes sin experiencia previa y les cuesta identificar talento: La falta de un sistema que valide habilidades blandas o sugiera el potencial de un candidato joven dificulta la contratación y perpetúa la barrera de la "falta de experiencia".
+
+Hay falta de seguimiento y medición del impacto de las oportunidades ofrecidas, lo que impide la mejora continua: Sin análisis de datos avanzados, es imposible comprender qué programas o conexiones son realmente efectivos, limitando la capacidad de la organización para optimizar su impacto social.
+
+La comunicación entre jóvenes y empresas es a menudo ineficiente y no estructurada: Esto genera demoras y malentendidos en el proceso de selección.
+
+Objetivo general:
+Desarrollar una plataforma web que conecte jóvenes con oportunidades laborales y de capacitación, integrando capacidades de Inteligencia Artificial para ofrecer recomendaciones personalizadas, verificar perfiles de forma inteligente, optimizar la confianza entre empresas y postulantes, y permitir un seguimiento predictivo del impacto, mejorando significativamente las tasas de inserción laboral y el éxito de las oportunidades.
+
+Objetivos Específicos:
+OE1: Aumentar la tasa de coincidencia entre perfiles de jóvenes y vacantes en un 40% en los primeros 6 meses, mediante un sistema de recomendación de IA que analice habilidades, intereses y requisitos del puesto.
+
+OE2: Reducir la desconfianza de las empresas hacia los postulantes jóvenes en un 25% en el primer año, implementando un módulo de validación de habilidades y potencial con IA, y ofreciendo herramientas que resalten el valor de la formación técnica y las prácticas.
+
+OE3: Mejorar la medición del impacto de las oportunidades ofrecidas en un 50% al finalizar el primer año, a través de un panel de administración con métricas avanzadas y análisis predictivos de IA sobre la trayectoria laboral de los jóvenes.
+
+Funcionalidades Principales para Cumplir los Objetivos Específicos:
+Para OE1 (Aumentar la tasa de coincidencia con IA):
+Registro de Jóvenes con CV y Habilidades Destacadas (Potenciado por IA):
+
+Creación de perfiles detallados con datos demográficos, formación académica, experiencia (si la hay), intereses y habilidades (duras y blandas).
+
+Análisis de CV con IA: Extrae automáticamente habilidades clave, experiencia relevante y sugiere áreas de mejora o formación adicional.
+
+Evaluación de Intereses y Aptitudes con IA: Cuestionarios interactivos que, con IA, identifican el verdadero potencial y las preferencias de carrera del joven, incluso sin experiencia formal.
+
+Registro de Empresas y Publicación de Vacantes (Optimizada por IA):
+
+Perfiles de empresa con información detallada, cultura organizacional y tipos de oportunidades que ofrecen.
+
+Publicación de vacantes con descripción de requisitos, responsabilidades y habilidades deseadas.
+
+Asistente de Redacción de Vacantes con IA: Sugiere palabras clave y descripciones inclusivas para atraer al talento joven adecuado, y ayuda a definir requisitos realistas para perfiles sin experiencia.
+
+Buscador y Recomendador de Empleos con IA:
+
+Buscador avanzado con filtros por área, ubicación y tipo de empleo (tiempo completo, parcial, prácticas, formación técnica).
+
+Motor de Recomendación Personalizada con IA: Utiliza algoritmos para sugerir vacantes y programas de formación a los jóvenes basándose en su perfil, habilidades, intereses y el historial de éxito de otros jóvenes con perfiles similares.
+
+Recomendación de Candidatos con IA para Empresas: Sugiere a las empresas los perfiles de jóvenes más adecuados para sus vacantes, destacando no solo la experiencia, sino también el potencial y las habilidades relevantes.
+
+Para OE2 (Reducir la desconfianza de las empresas con IA):
+Aplicación a Vacantes con Seguimiento del Estado (Transparente y Validado por IA):
+
+Proceso de postulación sencillo y seguimiento en tiempo real del estado de la aplicación (enviada, vista, en revisión, preseleccionada, rechazada, contratada).
+
+Módulo de Validación de Habilidades y Potencial con IA: Permite a los jóvenes realizar pruebas de aptitud o demostrar habilidades blandas (ej. resolución de problemas, comunicación) que son evaluadas por IA, proporcionando a las empresas una visión más allá del CV tradicional.
+
+Generación de "Perfiles de Potencial" con IA: Crea un resumen generado por IA para cada joven, destacando sus fortalezas, aptitudes para el aprendizaje y áreas de crecimiento, lo que ayuda a las empresas a ver más allá de la falta de experiencia formal.
+
+Chat Interno o Contacto Seguro entre Empresa y Postulante (Asistido por IA):
+
+Sistema de mensajería seguro dentro de la plataforma para facilitar la comunicación.
+
+Asistente de Comunicación con IA: Sugiere preguntas para entrevistas o respuestas a consultas comunes, ayudando a ambas partes a interactuar de manera más efectiva y profesional.
+
+Para OE3 (Mejorar la medición del impacto con IA):
+Panel de Administración con Métricas de Participación e Impacto (con Análisis Predictivo de IA):
+
+Visualización de datos sobre el número de jóvenes registrados, vacantes publicadas, postulaciones, contrataciones, etc.
+
+Análisis Predictivo de Trayectorias Laborales con IA: Predice la probabilidad de que un joven permanezca en un empleo, progrese en su carrera o necesite apoyo adicional, basándose en patrones de datos y el historial de la plataforma.
+
+Reportes de Impacto Automatizados con IA: Genera informes detallados sobre la efectividad de la plataforma, identificando oportunidades de mejora y demostrando el valor a los patrocinadores.
+
+Módulo de Seguimiento Post-Contratación (con Alertas de IA):
+
+Herramientas para que la organización pueda dar seguimiento al progreso del joven y a la satisfacción de la empresa.
+
+Alertas Tempranas con IA: Notifica a la organización sobre posibles problemas o desafíos que un joven pueda enfrentar en su nuevo empleo, permitiendo una intervención proactiva.
+
+Gestión de Usuarios con Diferentes Roles (Jóvenes, Empresas, Administración) y su Uso de la IA:
+Creación de perfiles de usuario con permisos específicos según su función en la plataforma.
+
+Control de acceso a diferentes módulos y funcionalidades del sistema.
+
+Registro de auditoría de acciones realizadas en el sistema para mayor seguridad y trazabilidad.
+
+Detalle de cómo cada rol se beneficia y usa la IA:
+
+Jóvenes (Usuarios de la Plataforma):
+
+Uso de la IA: Los jóvenes se beneficiarán del Análisis de CV con IA para optimizar la presentación de su perfil y el Motor de Recomendación Personalizada con IA que les sugerirá las oportunidades de empleo y formación más adecuadas a sus habilidades e intereses, incluso aquellos que no sabían que existían. El Módulo de Validación de Habilidades y Potencial con IA les permitirá demostrar sus capacidades más allá de la experiencia formal, y el Asistente de Comunicación con IA les ayudará a redactar mensajes profesionales para las empresas.
+
+Mejoras: Mayor visibilidad de oportunidades relevantes, optimización de su perfil para destacar sus fortalezas, guía personalizada en su búsqueda de empleo, y una comunicación más efectiva con potenciales empleadores.
+
+Empresas (Empleadores):
+
+Uso de la IA: Las empresas utilizarán el Asistente de Redacción de Vacantes con IA para crear descripciones de puesto atractivas y realistas para jóvenes. El Motor de Recomendación de Candidatos con IA les presentará proactivamente a los jóvenes con el mejor ajuste para sus vacantes, destacando su potencial y habilidades relevantes, lo que les permitirá ver más allá de la falta de experiencia. El Módulo de Validación de Habilidades y Potencial con IA les dará una visión más profunda de las capacidades de los postulantes, y el Asistente de Comunicación con IA facilitará la interacción con los jóvenes.
+
+Mejoras: Acceso a un pool de talento joven mejor filtrado y con potencial demostrado, reducción del tiempo en el proceso de selección, mayor confianza en la contratación de perfiles sin experiencia, y una comunicación más fluida con los candidatos.
+
+Personal de Administración (de la Organización sin Fines de Lucro):
+
+Uso de la IA: El personal administrativo se apoyará en el Panel de Administración con Métricas de Participación e Impacto (con Análisis Predictivo de IA) para monitorear la efectividad de la plataforma, identificar tendencias y tomar decisiones estratégicas. El Análisis Predictivo de Trayectorias Laborales con IA y los Reportes de Impacto Automatizados con IA les proporcionarán información valiosa sobre el éxito a largo plazo de los jóvenes y el impacto social de la organización, permitiéndoles optimizar programas y atraer más fondos. Las Alertas Tempranas con IA del módulo de seguimiento post-contratación les permitirán intervenir proactivamente para apoyar a los jóvenes en sus nuevos empleos.
+
+Mejoras: Visión integral y predictiva del impacto de la plataforma, optimización de recursos y programas, capacidad mejorada para demostrar el valor social a patrocinadores, y una intervención más oportuna para asegurar el éxito de los jóvenes.
